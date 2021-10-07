@@ -61,4 +61,7 @@
   <ItemGroup>
     <None Include="ScriptConfiguration\001-TipoIdentificacion.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="ScriptConfiguration\PostDeployment1.sql" />
+  </ItemGroup>
 </Project>
