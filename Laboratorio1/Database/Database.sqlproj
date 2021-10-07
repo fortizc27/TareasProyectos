@@ -60,4 +60,11 @@
     <Folder Include="dbo\Tables" />
     <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\TipoIdentificacion.sql" />
+    <Build Include="dbo\StoredProcedures\TI_Actualizar.sql" />
+    <Build Include="dbo\StoredProcedures\TI_Eliminar.sql" />
+    <Build Include="dbo\StoredProcedures\TI_Insertar.sql" />
+    <Build Include="dbo\StoredProcedures\TI_Obtener.sql" />
+  </ItemGroup>
 </Project>
