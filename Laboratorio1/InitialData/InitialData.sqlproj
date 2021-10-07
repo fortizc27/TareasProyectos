@@ -58,4 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="ScriptConfiguration" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ScriptConfiguration\001-TipoIdentificacion.sql" />
+  </ItemGroup>
 </Project>
