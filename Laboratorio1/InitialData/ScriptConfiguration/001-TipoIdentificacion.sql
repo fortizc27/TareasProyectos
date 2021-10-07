@@ -13,7 +13,7 @@ VALUES
 UPDATE TI SET
 TI.Descripcion = TM.Descripcion
 FROM dbo.TipoIdentificacion TI
-INNER JOIN #TipoIdentificacionTempp TM
+INNER JOIN #TipoIdentificacionTemp TM
 ON TI.IdTipoIdentificacion = TM.IdTipoIdentificacion
 
 ----INSERTAR DATOS----
