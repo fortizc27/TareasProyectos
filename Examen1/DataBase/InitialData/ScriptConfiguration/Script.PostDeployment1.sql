@@ -9,4 +9,4 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-:r .\001 - TipoInquilino.sql
+:r .\001-TipoInquilino.sql

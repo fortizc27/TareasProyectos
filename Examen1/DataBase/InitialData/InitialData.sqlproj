@@ -59,7 +59,7 @@
     <Folder Include="ScriptConfiguration" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ScriptConfiguration\001 - TipoInquilino.sql" />
+    <None Include="ScriptConfiguration\001-TipoInquilino.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="ScriptConfiguration\Script.PostDeployment1.sql" />

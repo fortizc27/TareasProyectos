@@ -4,8 +4,8 @@ SELECT
 Id_TipoInquilino, Descripcion, Estado INTO #TipoInquilinoTemp
 FROM (
 VALUES
-(1, 'FISICO', True),
-(2, 'JURIDICO', True)
+(1, 'FISICO', 1),
+(2, 'JURIDICO', 1)
 )AS TEMP (Id_TipoInquilino, Descripcion, Estado)
 
 ----ACTUALIZAR DATOS----
